@@ -1,0 +1,104 @@
+
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = true
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+##font = Terminus (TTF) Medium 12
+#font = Misc Ohsnapu 13
+#font = Oloron Tryout 12
+font = Iosevka 12
+scrollback_lines = 10000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+opacity-rule = ["85:class_g = 'Termite'"];
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+[hints]
+#font = Monospace 12
+foreground = #FFFFFF
+#dcdccc
+background =  #3f3f3f
+active_foreground = #e68080
+active_background = #3f3f3f
+padding = 2
+border = #3f3f3f
+border_width = 0.5
+roundness = 2.0
+# if unset, will reverse foreground and background
+#highlight = #839496
+# Gruv
+
+[colors]
+foreground = #FFFFFF
+#93a1a1 
+foreground_bold = #FFFFFF
+#babdb6
+#  #eee8d5
+#foreground_dim = #888888
+background = #282828
+cursor = #FFFFFF
+#93a1a1
+background = rgba(48,48,48,0.90)
+
+# colors from color0 to color254 can be set
+#color0 =  #282828
+#color1 =  #cc241d
+#color2 =  #98971a
+#color3 =  #d79921
+#color4 =  #458588
+#color5 =  #b16286
+#color6 =  #689d6a
+#color7 =  #D3D7CF
+#color8 =  #928374
+#color9 =  #fb4934
+#color10 = #b8bb26
+#color11 = #fabd2f
+#color12 = #83a598
+#color13 = #d3869b
+#color14 = #8ec07c
+#color15 = #ebdbb2
+
+color0    =    #0B151A
+color1    =    #F77CC3
+color2    =    #7CF8C4
+color3    =    #F2CC91
+color4    =    #45BBE6
+color5    =    #AA2FD4
+color6    =    #50CAE6
+color7    =    #F2F2F2
+
+color8    =    #0B151A
+color9    =    #F77CC3
+color10   =    #7CF8C4
+color11   =    #F2CC91
+color12   =    #45BBE6
+color13   =    #AA2FD4
+color14   =    #50CAE6
+color15   =    #F2F2F2
+
+
+
+# vim: ft=dosini cms=#%s
